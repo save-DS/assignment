@@ -17,6 +17,13 @@
 본인 브랜치에서 작업 시작 -> 브랜치 이름은 본인이름으로 해주세요
 git checkout -b (이름)
 
+### 작업 시작
+
+git checkout develop
+git pull origin develop # develop 최신화
+git checkout (이름)
+git merge develop # 내 브랜치에 반영
+
 ### 작업 후 커밋
 
 git add .
